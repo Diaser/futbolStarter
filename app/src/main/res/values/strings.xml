@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FutbolStarter</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="intro_head_players">Administra tu equipo</string>
+    <string name="intro_desc_players">Enlista tu equpio, gestiona posiciones, goles, castigos y más</string>
+    <string name="intro_head_field">Verifica rápidamente tu cancha</string>
+    <string name="intro_desc_field">Comparte ubicación, haz anotaciones del lugar</string>
+    <string name="intro_head_pos_table">Revisa tu posición</string>
+    <string name="intro_desc_pos_table">Revisa la tabla de posiciones y monitorea el avance de otros equipos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
