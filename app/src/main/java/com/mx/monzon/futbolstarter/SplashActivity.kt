@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import com.mx.monzon.futbolstarter.databinding.ActivitySplashBinding
+import timber.log.Timber
 
 class SplashActivity : AppCompatActivity() {
 
@@ -15,6 +16,7 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Timber.i("EDMM onCreate")
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -31,7 +33,6 @@ class SplashActivity : AppCompatActivity() {
             }
 
             override fun onAnimationEnd(p0: Animation?) {
-                Log.i("DAN","pasando por onAnimationEnd")
                 startActivity(intent)
             }
         })
