@@ -37,7 +37,7 @@ class SliderAdapter(var context: Context) : PagerAdapter(){
         binding.SlideLayout.setBackgroundResource(slideBackgrounds[position])
         binding.tvSlideHead.setText(slideHeadings[position])
         binding.tvSlideDesc.setText(slideDescriptions[position])
-        binding.imageViewSlide.setImageResource(slideBackgrounds[position])
+        binding.imageViewSlide.setImageResource(slideImages[position])
         container.addView(binding.getRoot());
         return binding.getRoot();
 

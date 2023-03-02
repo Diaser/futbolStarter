@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.mx.monzon.futbolstarter.R
 import com.mx.monzon.futbolstarter.databinding.FragmentScreenSlidePageBinding
+import timber.log.Timber
 
 
 class ScreenSlidePageFragment : Fragment() {
@@ -15,9 +16,8 @@ class ScreenSlidePageFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-
-    ): View? {
+        savedInstanceState: Bundle?): View? {
+        Timber.i("EDMM onCreateView")
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_screen_slide_page, container, false)
         binding = FragmentScreenSlidePageBinding.inflate(inflater, container, false )
